@@ -206,3 +206,21 @@
 // let text = "Hello world!";
 // let result = text.repeat(10);
 // console.log(result);
+
+// let text = "5";
+// let padded = text.padStart(4,"0");
+// console.log(padded);
+
+
+// let text = "5";
+// let padded = text.padEnd(4,"0");
+// console.log(padded);
+
+// let text = "Hello world!";
+// let result = text.repeat(2);
+// console.log(result);
+
+
+// let text = "Please visit Microsoft!";
+// let newText = text.replace("Please", "Priyanka");
+// console.log(newText);
