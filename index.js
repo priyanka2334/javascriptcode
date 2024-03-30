@@ -83,12 +83,16 @@
 
 // const prompt = require ('prompt-sync')();
 // let num = parseInt(prompt("Enter the number"));
-// if (num === 999){
-//     console.log("largest");
-// }
-// else{
-//     console.log("NOT");
-// }
+// let num1 = parseInt(prompt("Enter the number"));
+// let num2= parseInt(prompt("Enter the number"));
+//  let largest = num;
+//  if(num1>largest){
+//     num1 = largest;
+//  }
+//  if(largest>num2){
+//     num2 = largest;
+//  }
+//  console.log(largest);
 
 
 // 10. Write a JavaScript program to check whether a number is even or odd.
@@ -120,3 +124,85 @@
 // }
 
 
+
+// find the max number
+// const prompt = require('prompt-sync')();
+
+// let num1 = parseInt(prompt("Enter the first number: "));
+// let num2 = parseInt(prompt("Enter the second number: "));
+// let num3 = parseInt(prompt("Enter the third number: "));
+// let num4 = parseInt(prompt("Enter the fourth number: "));
+// let maxNumber = Math.max(num1, num2, num3, num4);
+// console.log("The maximum number is: " + maxNumber);
+
+
+
+// find the minmum number of four number
+
+// const prompt = require('prompt-sync')();
+// let num = parseInt(prompt("Enter the number"));
+// let num1 = parseInt(prompt("Enter the number"));
+// let num2 = parseInt(prompt("Enter the number"));
+// let num3 = parseInt(prompt("Enter the number"));
+// let minNumber = Math.min(num, num1, num2, num3);
+// console.log("The maximum number is:" + minNumber);
+
+
+// let name = "priyanka diwakar";
+// console.log(name.length);
+
+
+// let text = "AHELLO WORLD";
+// let char = text.charAt(0);
+// console.log(char);
+
+
+// let text = "A HELLO WORLD";
+// let char = text.charCodeAt(0);
+// console.log(char);
+
+
+// let name = "W3Schools";
+// let letter = name.charAt(2);
+// console.log(letter);
+
+
+// let name = "priyanka";
+// console.log(name[0]);
+
+// let text = "Apple, Banana, Kiwi";
+// let part = text.slice(0);
+// console.log(part);
+
+
+// let str = "Apple, Banana, Kiwi";
+// let part = str.substring(7);
+// console.log(part);
+
+// let text1 = "Hello World!";
+// let text2 = text1.toUpperCase();
+// console.log(text2);
+
+// let text1 = "  priyanka diwakar    ";
+// let text2 = text1.trim();
+// console.log(text2);
+
+// let text1 = "Hello World!";       // String
+// let text2 = text1.toLowerCase();
+// console.log(text2);
+
+// let text1 = "Hello";
+// let text2 = "World";
+// let text4 = "priyanka";
+// let text3 = text1.concat(" ", text2," ",text4);
+// console.log(text3);
+
+
+// let text1 = "     Hello World!     ";
+// let text2 = text1.trimStart();
+// console.log(text2);
+
+
+// let text = "Hello world!";
+// let result = text.repeat(10);
+// console.log(result);
