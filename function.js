@@ -98,39 +98,45 @@
 // console.log("area of rectangle",area);
 
 
-// let square = (num) => {                               ////// Question 2
+//2. Take a number and print the square of the number
+
+// let square = (num) => {                               
 //     return num ** 2;
 // }
 // let number = square(5);
 // console.log("square of number",number);
 
 
+//3. Take two numbers and only print the integer part when a is divided by b
 
-// let integer = (num1,num2) => {               //// Question 3
+// let integer = (num1,num2) => {               
 //     return parseInt(num1 /num2);
 
 // }
 // let numbers=(integer(2 ,20));
 // console.log("integer part",numbers);
 
- 
-// let last = (num) =>{         /////  Question 4
+//4. Take a number and print out the last digit of the number.
+
+// let last = (num) =>{         
 //     return num % 10;  
 // }
 // let digit = (last(25));
 // console.log("last digit",digit);
 
+//5. Take a number and find the cube of that number
 
-// let cube = (num) =>{                  ////// Question 5
+// let cube = (num) =>{                 
 //     return num **3;
 // }
 // let number = (cube(3));
 // console.log("cube of number",number);
 
 
+//6. Take a 3 digit number and print the reverse of that number.
 
 // let reverse = (num) => {
-// let r = 0;                                        //////reverse  Question 6
+// let r = 0;                                      
 //     while (num > 0) {
 //         let digit = num % 10;
 //         r = r * 10 + digit;
@@ -139,8 +145,9 @@
 //     return r;
 // }
 
+// 7. Take a number and print out the first digit of the number.
 
-// let first = (num) => {                                  //// Question 7 
+// let first = (num) => {                                  
 //     let number = num.toString().charAt(0);
 //     return number;
 // }
@@ -148,8 +155,9 @@
 // console.log(digit);
 
 
+//9. Take the salary of five employees and print the average salary of all the employees.
 
-// let frist = (a,b,c,d,e) =>{                         /// Question 9 average
+// let frist = (a,b,c,d,e) =>{                        
 //     let f = a +b+c+d+e;
 //     return f/5;
 // }
@@ -157,10 +165,11 @@
 // console.log(average);
 
 
+//10. Take two numbers and swap them.
 
 // let number = (a,b) =>{
 //     let c;
-//     c = a;                                 ///// swap of two number  Question 10
+//     c = a;                                 
 //     a = b;
 //     b = c;
 //     return [a,b];
@@ -174,6 +183,8 @@
     ///////////////////////////////////////////// Today's Questions/////////////////////////////////////////////////
 
 
+//  1. Write a program that checks if a given number is even or odd.
+
 // function even (num){
 //     if(num%2===0){                         
 //         return "even";
@@ -184,9 +195,10 @@
 // let check = even(11);
 // console.log(check);
 
+//2. Create a function that takes two numbers as parameters and returns the larger one.
 
 // function check(num1,num2){
-//     if(num1>num2){                       ///Question 2 large number
+//     if(num1>num2){                       
 //         return num1;
 //     }else{
 //         return num2;
@@ -196,8 +208,10 @@
 // console.log(numbers);
 
 
+//3. Write a function that determines if a given year is a leap year.
+
 // function leep(year){
-//     if((year%400==0) || (year%4==0 && year%100!=0)){                //// Question 3 leep year
+//     if((year%400==0) || (year%4==0 && year%100!=0)){                
 //         return "yes";
 //     }else{
 //         return "NOT";
@@ -207,8 +221,10 @@
 // console.log(numbers);
 
 
+//4. Implement a program that checks whether a given character is a vowel or consonant.
+
 // function check(char){
-//     if(char=="a" || char=="e" || char=="o" || char=="u" || char=="i"){           //// Question 4 character
+//     if(char=="a" || char=="e" || char=="o" || char=="u" || char=="i"){           
 //         return "YES";                         
 //     }else{
 //         return "NOT";
@@ -218,7 +234,8 @@
 // console.log(charater);
 
 
-// function check(num1, num2, num3){                      //// Question 5 largest numbers
+//5. Create a function that takes three numbers as input and returns the largest among them
+// function check(num1, num2, num3){                     
 //     let num4= Math.max(num1,num2,num3);
 //     return num4;
 // }
@@ -226,7 +243,9 @@
 // console.log(numbers);
 
 
-// function check(num){                              ////Question 6 positive ,Zero
+//6. Write a program that checks if a given number is positive, negative, or zero.
+
+// function check(num){                             
 //     if(num<0){
 //         return "nagative";
 //     }else if(num>0){
@@ -239,8 +258,10 @@
 // console.log(numbers);
 
 
+//7. Implement a function that calculates the grade of a student based on their score.
+
 // function check(num){
-//     if(num>80){                                     //// Question 7 grade
+//     if(num>80){                                    
 //         return "A";
 //     }if(num<80 || num>60){
 //         return "B"
@@ -252,10 +273,11 @@
 // console.log(grade);
 
 
+//8. Create a program that determines if a given string is a palindrome.
 
 // let check = (str) => {
 //     // let store = str;
-//     let r = "";                                           /////Question 8 palindrom strings
+//     let r = "";                                         
 //     for(let i = str.length-1;i>=0; i--){
 //         r += str[i];
 //     }
@@ -270,12 +292,13 @@
 // console.log(string);
 
 
+//9. Write a function that checks whether a person is eligible to vote based on their age.
 
 // let number = check(121);
 // console.log(number); 
 
 //  function vote (age){
-//     if(age>=18){                 ////Quation 9 vote
+//     if(age>=18){                 
 //         return "YES";
 //     }else{
 //         return "NO";
@@ -283,10 +306,13 @@
 //  } 
 //  let check = vote(19);
 //  console.log(check);  
-    
+   
+
+
+//10. Implement a program that determines the type of a triangle based on the lengths of its sides.
 
 // function Triangle(a,b,c){
-//     if(a==b && b==c && c==a){                           ////Question 10 triangle
+//     if(a==b && b==c && c==a){                           
 //         return "Equilateral";
 //     }else if(a==b || b==c|| c==a){
 //         return "Isosceles";
