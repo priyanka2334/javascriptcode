@@ -147,13 +147,29 @@
 
 // 7. Take a number and print out the first digit of the number.
 
-// let first = (num) => {                                  
-//     let number = num.toString().charAt(0);
-//     return number;
+// let number = (num) =>{
+//     let first = num;
+//     while(first>=10){
+//         first = parseInt(first/10);
+//     }
+//     return (first);
 // }
-// let digit = first(1235677);
-// console.log(digit);
+// let result = number(123345);
+//  console.log(result);
 
+//8. Take a number and return the sum of the first and last digit.
+
+// let number = (num) => {
+//     let last = num % 10;
+//     let first = num;
+//     while(first >= 10) {
+//         first = parseInt(first / 10);
+//     }
+//     return (last + first);
+// }
+
+// let result = number(123345);
+// console.log(result);
 
 //9. Take the salary of five employees and print the average salary of all the employees.
 
@@ -322,5 +338,266 @@
 // }
 // let check = Triangle(23,23,34);
 // console.log(check);
+
+
+
+//1.Draw a flowchart to find the sum of the first n natural numbers, where n is any given integer.
+
+
+// function sum(num){
+//     let sum = 0;                                  ///// sum of n numbers
+//     for(let i = 1; i<=num; i++){
+//         sum = sum + i;
+//     }
+//     return sum;
+// }
+// let numbers = sum(10);
+// console.log(numbers);
+
+
+
+//Draw a flowchart to find the sum of the first 15 even natural numbers.
+
+
+// function even(coun){
+//     let sum = 0;                  
+//     for (let i = 1; i<=coun; i++){
+//         sum = sum + i;
+//     }
+//     return sum;
+// }
+// let numbers = even(4);
+// console.log(numbers);
+
+
+
+//4.Construct a flowchart to print the numbers below 100 that are divisible by 7.
+
+// function divisible(num){
+//     let seven = [ ];
+//     for(let i = 1; i<=num; i++){
+//         if(i%7==0){
+//             seven += i;
+//         }
+//     }
+//     return  `${seven}`;
+// }
+// let numbers = divisible(21);
+// console.log(numbers);
+
+
+
+// 5.Construct a flowchart to show how to find the product of n natural numbers.
+
+// function product(num){
+//     let pro = 1;
+//     for(let i = 1; i<=num; i++){
+//         pro = pro * i;
+//     }
+//     return pro;
+// }
+// let numbers = product(3);
+// console.log(numbers);
+
+
+
+//6.Draw a flowchart to show how to find all even natural numbers that are divisible by 7 in a given range. (Input lower and upper limit of the range from the user)
+
+// function even(num){
+//     let seven = [ ];
+//     for(let i = 1; i<=num; i++){
+//         if(i%2==0 && i%7==0){
+//             seven += i;
+//         }
+//     }
+//     return seven;
+// }
+// let numbers = even(100);
+// console.log(numbers);
+
+
+
+//7.Construct a flowchart to find the sum of the squares of the first 9 natural numbers that are divisible by 3.
+
+// function squares(num){
+//     let sum = 0;
+//     let three =[ ];
+//     for(let i = 1; i<=num; i++){
+//         let a = i**2;
+//         if(a%3==0){
+//             sum = sum + a;
+//         }
+//     }
+//     return sum;
+// }
+// let numbers = squares(6);
+// console.log(numbers);
+
+
+
+//8.Draw a flowchart to show how the sum of the digits of a given number can be obtained. (Input the number from the user)
+
+// function digits(num){
+//     let sum = 0;
+//     let num1 = num;
+//     while(num>0){
+//         a = num % 10;
+//         sum = sum + a;
+//         num = num /10;
+//     }
+//     return parseInt(sum);
+// }
+// let numbers = digits(124);
+// console.log(numbers);
+
+
+
+//9.Draw a flowchart to show the logic of obtaining the reversed form of a given whole number. (Input the number from the user)
+
+// function reversed(num){
+//     let r =0;
+//     let num1 = num;
+//     while(num>0){
+//         a = num % 10;
+//         r = r * 10 + a;
+//         num = Math.floor(num / 10);
+//     }
+//     return r;
+// }
+// let numbers = reversed(123);
+// console.log(numbers);
+
+
+
+//10.Construct a flowchart to show how the factors of a given number can be obtained. (Input the number from the user)
+
+
+// function fact(num){
+//     let factors = [ ];
+//     for(let i = 1; i<num; i++){
+//         if(num%i==0){
+//             factors += i;
+//         }
+//     }
+//     return factors;
+// }
+// let numbers = fact(10);
+// console.log(numbers);
+
+
+
+//11.Construct a flowchart to show how to determine whether a given number is a perfect number.  (Input the number from the user)
+
+
+// function perfect(num){
+//     let numbers = [];
+//     for(let i = 1; i <= num; i++){
+//         let sum = 0;
+//         for(let j = 1; j < i; j++){
+//             if(i % j === 0){
+//                 sum += j;
+//             }
+//         }
+//         if(sum === i){
+//             numbers += i;
+//         }
+//     }
+//     return numbers;
+// }
+
+// let per = perfect(100);
+// console.log(per);
+
+
+
+//12.Construct a flowchart to show how you can decide if a given number is prime or not.  (Input the number from  the user)
+
+// function prime(num){
+//     let numbers = [];
+//     for(let i = 1; i<=num; i++){
+//         let coun = 0;
+//         for(let j = 1; j<i; j++){                 ////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//             if(i%j==0){
+//                 coun = coun + j;
+//             }
+//         }
+//         if(coun==2){
+//             numbers += i;
+//         }
+//     }
+//     return numbers;
+// }
+// let pri = prime(100);
+// console.log(pri);
+
+
+
+//13.Construct a flowchart to find out the sum of first N terms of the following series. 5 + 55 + 555 + 5555 + .......... up to N terms.
+
+// function sum(num){
+//     let sum = 0;
+//     for(i = 1; i<=num; i++){
+//         sum = sum * 10 + 5;
+//     }
+//     return sum;
+// }
+// let numbers = sum(8);
+// console.log(numbers);
+
+
+
+//14.Construct a flowchart to print multiplication tables from 1 to 5.
+
+// function table(num){
+//     let i = 1;
+//     while(i <= num){
+//         let j = 1;
+//         while(j <= 10){
+//             let fact = j * i;
+//             console.log(`${i} * ${j} = ${fact}`);
+//             j = j + 1;
+//         }
+//         console.log("");
+//         i = i + 1;
+//     }
+// }
+// table(5);
+
+
+
+//15.Construct a flowchart to show the logic of printing the first N Fibonacci numbers. Fibonacci numbers are obtained from the relationship ti = ti–1 + ti–2, i = 2 to n where t0 = 0, t1 = 1.
+
+// function Fibonacci(num){
+//     let x = 0;
+//     let sum = 0;
+//     let y = 1;
+//     let i = 1;
+//     while(i<=num){
+//         x = y;
+//         y = sum;
+//         sum = x + y;
+//         console.log(sum);
+//         i = i + 1;
+//     }
+// }
+// Fibonacci (8);
+
+
+
+// function Fibonacci(num){
+//     let x = 0;
+//     let y = 1;
+//     let i = 1;
+//     while(i <= num){
+//         let sum = x + y;
+//         console.log(sum);
+//         x = y;
+//         y = sum;
+//         i = i + 1;
+//     }
+// }
+
+// Fibonacci(8)
+
 
 
