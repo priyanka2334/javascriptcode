@@ -601,3 +601,127 @@
 
 
 
+// Immediately invoked function
+
+
+// (function (){
+//     console.log("Hello world");
+//     // return ("Hello world");
+// })();
+
+// length is three that's way 1,2,3 print
+
+// let arr = [1,2,3,4,5];
+// arr.length = 3;
+// console.log(arr);
+
+// arr .length = 5;
+// console.log(arr);
+
+
+
+// Changing
+
+// let arr = ["priya", "Riya", "paras"];
+// arr [4] = "preeti";
+// console.log(arr);
+
+// length
+
+// let number = [ 1 , 2, 3, 4, 5,];
+// let num = number.length;
+// console.log(num);
+
+
+// use in push
+// let arr = ["priya","riya","Amit"];
+// arr.push("Komal");
+// console.log(arr);
+
+
+//use in pop
+// let arr = ["priya","riya"];
+// arr.pop( );
+// console.log(arr);
+
+
+// use in shift
+// let arr = ["priya","riya"];
+// arr.shift("komal");
+// console.log(arr);
+
+
+// use in unshift
+// let arr = ["priya","riya"];
+// arr.unshift( "komal");
+// console.log(arr);
+
+
+// const cars = [
+//     "Saab",
+//     "Volvo",
+//     "BMW"
+//   ]; 
+// console.log(cars);
+
+// const cars = [];
+// cars[0]= "Saab";
+// cars[1]= "Volvo";
+// cars[2]= "BMW";
+// console.log(cars);
+
+
+// let number = ["priya","paras","riya","Amit"];
+// let num = number.toString();
+// console.log(num);
+
+
+// let name = ["priya", "riya", "paras"];
+// let nam = name[2];
+// console.log(nam);
+
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 === 0) {                                   // even number;
+//         console.log("Even");
+//     } else {
+//         console.log("Odd");
+//     }
+// }
+
+
+// let arr = [1,2,3,4,5,6];
+// for(let i = 0; i<arr.length; i++){                       // odd number
+//     if(arr[i]%2!=0){
+//         console.log("odd", arr[i]);
+//     }else{
+//         console.log("Even",arr[i]);
+//     }
+// }
+
+
+
+// let arr = [1,2,3,4,5,6];
+// for(let i = arr.length; i>0; i--){
+//     console.log(arr[i]);
+// }
+
+
+// let arr = [1,2,3,4,5];                                  // sum of the numbers
+// let sum = 0;
+// for(let i = 0; i<arr.length; i++){
+// sum = sum + arr[i];
+// }
+// console.log(sum);
+
+
+// let arr = [5,6,7,14,15,67,70];                              //
+// for(let i = 0; i<arr.length;i++){
+//     if(arr[i]%7==0){
+//         console.log("divisible",arr[i]);
+//     }else{
+//         console.log("Not",arr[i]);
+//     }
+// }
