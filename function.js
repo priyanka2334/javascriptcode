@@ -725,3 +725,98 @@
 //         console.log("Not",arr[i]);
 //     }
 // }
+
+// concatiate
+// console.log("Hello"+"js");
+// console.log([1,2,]+[,3,4]);
+
+// console.log([,,3,4].length);
+// console.log([1,2,,]);
+
+
+// console.log([1,2]+3);
+
+// console.log([1,2]+"3");
+
+// console.log([]+1);
+
+// console.log([1]+1);
+// console.log([7] +1+2);
+
+// let a = [1,2,3,4,5];
+// let p = a.splice(1,1);
+// console.log(p);
+
+///////////////////////////////////////////////////////////////////////// multidimensinal array///////////////////////////////////////////////////////////
+
+// let arr = [
+//     [1,2,3],
+//     [3,3,5], 
+//     [9,6,7]
+// ];
+// // console.log(arr[0]); 
+
+// console.log(arr[2][2]);
+// console.log(arr[2][0]);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// use delete methods
+// let arr = ["riya","priya","paras","Amit"]
+// delete arr[3];
+// console.log(arr);
+
+
+// use in splice mathods
+
+// let arr = ["riya", "priya","neha","paras"]
+// arr.splice(1,1);
+// console.log(arr);
+
+
+// let arr = ["riya","priya","amit","preeti"]
+// arr.splice(-3,0,"par","khara","nara");
+// console.log(arr);
+
+// conctenate
+
+// console.log(1,2 + [,3,4]);
+// output 1,2,3,4
+
+// console.log([1,2]+[3,4]);
+// output 1,23,4
+
+// console.log([1,2, ,]+[3,4]);
+// output(1,2,,3,4)
+
+
+// console.log(2 + '2' -1);
+// output(21)
+
+// console.log("2" + 2 - 1);
+// output(21)
+
+// console.log(3 * "4");
+// output(12);
+
+
+// console.log(typeof NaN);
+// output (number);
+
+// console.log(undefined == null);
+// output(turu)
+
+// console.log(NaN == NaN);
+// console.log(false);
+
+// console.log(true + false);
+// output(1);
+
+// console.log(!"false" == !!"true");
+// output(false)
+
+// console.log("1" - - "1");
+// output(2);
+
+// console.log(1 + 1 + "1");
+// output(21);
