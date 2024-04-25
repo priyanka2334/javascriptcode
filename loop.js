@@ -238,4 +238,9 @@
 //     }
 //     console.log("")
 //     i = i + 1;
-//
+
+// }
+
+let arr = [1,2,3,4,5,6,7,8,9,10];
+let arr1 = arr.map(element => element * 5);
+console.log(arr1);

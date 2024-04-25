@@ -43,6 +43,8 @@
 //         return "NO";
 //     }
 // }
+// let number = check(123);
+// console.log(number);
 
 
 // function array(arr){
@@ -144,6 +146,8 @@
 //     }
 //     return r;
 // }
+// let num1 = reverse(123);
+// console.log(num1);
 
 // 7. Take a number and print out the first digit of the number.
 
@@ -167,7 +171,6 @@
 //     }
 //     return (last + first);
 // }
-
 // let result = number(123345);
 // console.log(result);
 
@@ -820,3 +823,196 @@
 
 // console.log(1 + 1 + "1");
 // output(21);
+
+// console.log(arr.slice(-2,4));
+
+/////////////////////////////////// concat()Question1//////////////////////////
+// let arr = [1,2];
+// let arr1 = [3,4];
+// console.log(arr.concat(arr1));
+
+
+////////////////Question2///////////////////////
+// let arr = [1,2,3,4];
+// let arr1 = [5,6,7,8];
+// console.log(arr.concat(arr1));
+
+// let arr = [1,2];
+// console.log(arr.concat([3,4],[5,6]));
+
+
+
+// indexof
+
+// let arr = ["riya","priya","amit","preeti"];
+// console.log(arr.indexOf("riya"));
+
+// let arr = ["Apple","Orange","Mango","Banana"]
+// console.log(arr.indexOf("Banana"));
+
+// last indexof
+
+// let arr = ["Apple","Orange","Apple","Apple"];
+// console.log(arr.lastIndexOf("Apple"));
+
+// console.log(arr.lastIndexOf("priya"));
+
+// includes
+
+// let arr = ["Apple","Mango","Banana"];
+// console.log(arr.includes("Apple"));
+
+
+//find
+
+// let arr = [NaN];
+// console.log(arr.indexOf(NaN));
+// console.log(arr.includes(NaN));
+
+// let arr = [
+//     {name: "Riya", age: 20},
+//     {name: "Raj", age: 30},
+//     {name: "Trupti", age: 40},
+//     {name: "Punam", age: 50},
+//     {name: "Sapna", age: 60},
+// ];
+// let user = arr.find(element => element.age === 60);
+// console.log(user);
+// console.log(user.name);
+
+// let result = arr.find(function(element){
+//     return element.age ==20;
+
+// });
+// console.log(result);
+
+
+// ////////////////////////////////////////Array join
+
+// let arr = ["priya","preeti","paras","Kopal"];
+// console.log(arr.join(" "));
+
+
+// let num = () =>{
+//     for(let i = arr.length; i>0; i++){
+        
+//     }
+// }
+// let arr = "priya";
+// console.log(arr.split("").reverse(arr).join(""));
+
+
+
+// sort methods
+// let arr = [1,2,3,4,5,6,7];
+// console.log(arr.sort( ))
+
+
+// revers mathod
+// let arr = [1,2,3,4,5,6,7,8,9];
+// console.log(arr.reverse());
+
+// map methods
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let newArray = arr.map(element => element*2);
+// console.log(newArray);
+
+// let user ={
+//     name:"pryanka",
+//     age:20,
+//     add:(a,b) => {return a+b},
+//     sub: (a,b) => {return a-b},
+// }
+// let k = user.add(2,3);
+// console.log(k);
+
+
+
+// let user ={
+//     firstname: "priyanka",
+//     lastName: "Diwakar",
+//     fullName(){
+//        return this.firstname + this.lastName
+//     },
+
+// }
+// console.log(user.fullName());
+
+
+
+//hum ek object k under hum dusre object ki properti ko acsses kr skty hy
+
+// let person = {
+//     firstName: "priyanka",
+//     lastName: "Diwakar",
+//     sayHello(){
+//         console.log(`Hello i am ${this.firstName} i have a ${car.brand} car`);
+//     }
+// };
+
+// let car = {
+//     brand: "Tata",
+//     model: "safari",
+//     sayp(){
+//     console.log(`Hello i have a ${this.brand} car`);
+//     }
+// }
+// person.sayHello();
+// car.sayp();
+
+
+
+// let person = {
+//     "first Name": "priyanka",
+//     "last Name": "Diwakar",
+//     firstName: "preeti",
+// }
+// person.age = 23;
+// person.firstName = "paras";
+// console.log(person['first Name']);
+// delete person["last Name"];
+// console.log(person);
+// console.log('age' in person);
+
+
+
+// let person = {
+//     "first Name": "priyanka",
+//     "last Name": "Diwakar",
+//     firstName: "preeti",
+// }
+// console.log('firstName' in person);
+
+
+// for in loop
+
+// let person = {
+//     firstName: "Priyanka",
+//     lastName: "Diwakar",
+// };
+
+// person.age = 25;
+
+// for (let key in person) {
+//     console.log(`${key}: ${person[key]}`);
+// }
+
+
+//using this key word
+
+let person = {
+    firstName: "priyanka",
+    lastName: "Diwakar",
+    sayHello(){
+        console.log(" Helio !");
+    }
+};
+
+let car = {
+    brand: "Tata",
+    model: "safari",
+}
+
+person.sayHello();
+
