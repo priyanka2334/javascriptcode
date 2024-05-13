@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="prac.css">
+    <!-- <script src="prac.js"></script> -->
+</body>
+<div class="container red green">
+    <!-- <div class="box" id="box 1">box 1</div>
+    <div class="box" id="box 2">box 2</div>
+    <div class="box" id="box 3">box 3</div> -->
+    <div class="box" id="box 4">box 4</div>
+    <!-- <div id="box5" style="color:red">I am a box 5</div>
+    <p id="m">This is <span>para</span>graph</p> -->
+</div>
+<button id="btn">Click Me</button>    
+<h1 class="heading"></h1>
+<h2 class="heading"></h2>
+    <script>
+
+        /////////////// compaier two heading ////////////////////////////
+
+        // let heading1 = document.querySelectorAll(".heading")[0];
+        // let heading2 = document.querySelectorAll(".heading")[1];
+        // let isE = heading1.isEqualNode(heading2);
+        // console.log(isE);
+
+
+        // let elm = document.getElementById("box 3");
+        // elm.innerHTML = "<p> hello </p>"
+        // console.log(elm);
+        // let c = document.getElementsByClassName("box");
+        // console.log(c);
+
+        // let tagN = document.getElementsByTagName("div")
+        // console.log(tagN); 
+//         let p = document.querySelector("#box5").innerHTML
+//         console.log(p);
+        // let p1 = document.querySelector("#box5").innerHTML
+        // console.log(p1);
+//         let con = document.querySelector(".container").innerHTML
+//         console.log(con);
+        
+        // let out = document.querySelector(".container").outerHTML
+        // console.log(out);
+//         let tag = document.querySelector(".container").tagName
+//         console.log(tag);
+//         let text = document.querySelector(".container").textContent
+//         console.log(text);
+//         let con1 = document.querySelector(".container").innerText
+//         console.log(con1);
+//         let check = document.querySelector(".container").hidden
+//         console.log(check);
+//         let check1 = document.querySelector(".container").hidden = true;
+//         console.log(check1);
+//         let che = document.querySelector(".box").innerHTML = "I am priyanka"
+//         console.log(che);
+//         let sty = document.querySelector("#box5").hasAttribute("style")
+//          console.log(sty);
+//          let stych = document.querySelector("#box5").getAttribute("style")
+//          console.log(stych);
+//          let styset = document.querySelector("#box5").setAttribute("style","color:green")
+//          console.log(styset);
+
+
+//          let newDiv = document.createElement'div');
+//          newDiv.innerText = "i am a new div";
+//          newDiv.setAttribute("class","newBox");
+//          document.querySelector(".container").append(newDiv);
+
+//          let newDiv1 = document.createElement('div');
+//          newDiv1.innerText = "i am a new div";
+//          newDiv1.setAttribute("class","newBox");
+//          document.querySelector(".container").prepend(newDiv1);
+
+//          let newDiv2 = document.createElement('div');
+//          newDiv2.innerText = "i am a new div";
+//          newDiv2.setAttribute("class","newBox");
+//          document.querySelector(".container").before(newDiv2);
+
+//          let newDiv3 = document.createElement('div');
+//          newDiv3.innerText = "i am a new div";
+//          newDiv3.setAttribute("class","newBox");
+//          document.querySelector(".container").after(newDiv3);
+
+//          let newDiv4 = document.createElement('div');
+//          newDiv4.innerHTML= "<b>I am a new div</b>";
+//          newDiv4.setAttribute("class","newBox");
+//          document.querySelector(".container").append(newDiv4);
+
+            
+           //////////////////////////////////////// textContent////////////////////////////////
+
+            // let p = document.getElementById("m")
+            // console.log(p.textContent);
+
+          ///////////////////////////////////////////////  we can change the other value in textContent
+
+        //   p.textContent  = "MY NAME IS PRIYANKA ";
+        //   console.log(p)
+        //   console.log(p.textContent)
+         
+        // let doa = document.querySelector("#box5")
+        // console.log(doa);
+
+        // let doa = document.querySelector("#box5").remove
+        // console.log(doa);
+
+        // let c = document.querySelector(".container").classList
+        // console.log(c);
+
+        // let d = document.querySelector(".container").classList.remove("red")
+        // console.log(d);
+
+        // let d = document.querySelector(".container").classList.add("red")
+        // console.log(d);
+
+        //if we are using toggle  so  we don't use add and remmove bcouse ye ek bar true and ek bar false hoga////////////////////////////////////////////////
+
+        // let e = document.querySelector(".container").classList.toggle("red");
+        // console.log(e);
+        // let f = document.querySelector(".container").classList.toggle("red");
+        // console.log(f);
+
+
+///////////////////////////////////////// CHILDERN/////////////////////////////////
+
+
+        // let chi = document.querySelector(".container").children[4];
+        // console.log(chi);
+
+        // let chi = document.querySelector(".container").children;
+        // console.log(chi);
+
+        // let myDiv = document.querySelector(".container"); // Using querySelector instead of getElementsByClassName
+        // let boxs = myDiv.children[3];
+        // let newBox = document.createElement("div");
+        // newBox.innerHTML = "my name is priyanka";
+        // myDiv.replaceChild(newBox, boxs); // Corrected myDiv typo
+
+
+
+        // let pTag = document.querySelector(".container p");
+        // let ele = document.createElement("p");
+        // ele.innerHTML = "my name is preeti";
+        // pTag.replaceWith(ele);
+
+
+
+/////////////////////////////////////////////////////even click
+        // let box = document.querySelector(".box");
+        // let button = document.getElementById("btn")
+
+        // button.addEventListener("click",() =>{
+        //     console.log("Button Clicked");
+        //     alert("clicked");
+        //     box.style.backgroundColor = "green";
+
+        // })
+
+    </script>
+</html>

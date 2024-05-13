@@ -123,7 +123,7 @@
 //                 c = c + 1;
 //             }
 //         }
-//         if(c>1){
+//         if(c==1){
 //             console.log(c);
 //             console.log(arr[i]);
 //         }
