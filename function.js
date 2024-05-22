@@ -1001,18 +1001,11 @@
 
 //using this key word
 
-let person = {
-    firstName: "priyanka",
-    lastName: "Diwakar",
-    sayHello(){
-        console.log(" Helio !");
-    }
-};
-
-let car = {
-    brand: "Tata",
-    model: "safari",
+function add(){
+    return 4;
 }
-
-person.sayHello();
-
+function addition(myfunction){
+    let k=myfunction()*10;
+    return k;
+}
+console.log(addition(add));

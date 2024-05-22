@@ -239,6 +239,9 @@
 // console.log(d("priyanka"));
 
 
+
+
+
 // function user(name,age,email,phone){
 //     return {
 //         name:name,
@@ -283,6 +286,13 @@
 // console.log(arr);
 
 
+
+
+
+
+
+
+
 // let arr = [1,2,3,4,5,6,3,5];
 // function dup(){
 //     un = [];
@@ -305,4 +315,18 @@
 // return un;
 // }
 // console.log(dup());
+
+
+
+
+// let user = {
+//     name : "priyanka",
+//     age : 19,
+//     class : 20,
+// }
+// user.name = "preeti";
+// Object.freeze(user);
+// console.log(user);
+
+// user.age = 25
 
